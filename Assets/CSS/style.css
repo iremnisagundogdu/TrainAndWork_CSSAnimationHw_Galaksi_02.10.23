@@ -1,0 +1,250 @@
+body{
+    background-image :url("../images/2217435.jpg");
+}
+
+.samanyolu{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    border: 4px dashed white;
+    /* ORTALAMAK İÇİN?*/
+    animation: don 25s linear infinite; /*name,duration,timing-funcction,iteration-count (SIRALAMA ÖNEMLİ) */
+   position: relative;
+}
+
+.samanyolu .pluton{ 
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    position: absolute; /* divler normalde alt alta gelmeliydi. Ama Position relative yaptığımızda samanyolunun içinde oldu. */ 
+    top:50px; /* top ve left vermezsen sıfıra sıfır başlayacaktı, şimdi tam ortada oldu (1200-1110)/2=50  */ 
+    left:50px;
+    border: 4px dashed white;
+    animation: don 25s linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .pluton img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+
+
+}
+
+.samanyolu .neptun{ 
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute; 
+    top:100px; 
+    left:100px;
+    border: 4px dashed white;
+    animation: don 20s linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .neptun img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+}
+
+.samanyolu .uranus{ 
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    position: absolute; 
+    top:150px; 
+    left:150px;
+    border: 4px dashed white;
+    animation: don 15s linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .uranus img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+}
+
+.samanyolu .saturn{ 
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    position: absolute; 
+    top:200px; 
+    left:200px;
+    border: 4px dashed white;
+    animation: don 30 linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .saturn img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+}
+
+.samanyolu .jupiter{ 
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    position: absolute; 
+    top:200px; 
+    left:200px;
+    border: 4px dashed white;
+    animation: don 10s linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .jupiter img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+}
+
+.samanyolu .mars{ 
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute; 
+    top:250px; 
+    left:250px;
+    border: 4px dashed white;
+    animation: don 5s linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .mars img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+}
+
+.samanyolu .dunya{ 
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute; 
+    top:300px; 
+    left:300px;
+    border: 4px dashed white;
+     animation: don 30s linear infinite;  
+    text-align: center;  
+}
+
+.samanyolu .dunya img{
+    height:80px;
+    width:80px;
+    position:relative;
+    top: -40px;
+     animation: don 25s linear infinite;  
+}
+
+ .samanyolu .dunya .ay{ 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute; 
+    top:-60px;
+    left:235px;
+    animation: don 3s linear infinite; 
+    text-align: center;
+  
+    
+}
+ .samanyolu .dunya .ay img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    position:absolute;
+    top: -80px;
+    left:100px;
+    animation: don 5s linear infinite;  
+}
+
+.samanyolu .venüs{ 
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute; 
+    top:350px; 
+    left:350px;
+    border: 4px dashed white;
+    animation: don 20s linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .venüs img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+}
+
+.samanyolu .merkür{ 
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute; 
+    top:400px; 
+    left:400px;
+    border: 4px dashed white;
+    animation: don 25 linear infinite; 
+    text-align: center;
+    
+
+}
+.samanyolu .merkür img{
+    height:80px;
+    width:80px;
+    position:absolute;
+    top: -40px;
+    animation: don 25s linear infinite; 
+}
+
+
+ .genel .gunes img{
+    height:200px;
+    width:200px;
+    top:500px;
+    left:500px;
+    position:absolute;
+    animation: don 30s linear infinite; 
+}
+
+ .genel{
+    position:relative;
+   margin-left: 800px;
+ }
+
+
+
+
+    @keyframes don{
+        100%{
+        transform:rotate(360deg)
+        }
+    }
+
